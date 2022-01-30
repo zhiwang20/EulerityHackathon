@@ -1,0 +1,117 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.eulerity_hackathon"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\zhiwa\AndroidStudioProjects\EulerityHackathon\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\zhiwa\AndroidStudioProjects\EulerityHackathon\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\zhiwa\AndroidStudioProjects\EulerityHackathon\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\zhiwa\AndroidStudioProjects\EulerityHackathon\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\zhiwa\AndroidStudioProjects\EulerityHackathon\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\zhiwa\AndroidStudioProjects\EulerityHackathon\app\src\main\AndroidManifest.xml:6:22-76
+13
+14    <application
+14-->C:\Users\zhiwa\AndroidStudioProjects\EulerityHackathon\app\src\main\AndroidManifest.xml:8:5-40:19
+15        android:allowBackup="true"
+15-->C:\Users\zhiwa\AndroidStudioProjects\EulerityHackathon\app\src\main\AndroidManifest.xml:11:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.7.0] C:\Users\zhiwa\.gradle\caches\transforms-3\9339927e08badd09bc5459e4ba900d5f\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+17        android:debuggable="true"
+18        android:extractNativeLibs="false"
+19        android:hardwareAccelerated="false"
+19-->C:\Users\zhiwa\AndroidStudioProjects\EulerityHackathon\app\src\main\AndroidManifest.xml:10:9-44
+20        android:icon="@mipmap/ic_launcher"
+20-->C:\Users\zhiwa\AndroidStudioProjects\EulerityHackathon\app\src\main\AndroidManifest.xml:12:9-43
+21        android:label="@string/app_name"
+21-->C:\Users\zhiwa\AndroidStudioProjects\EulerityHackathon\app\src\main\AndroidManifest.xml:13:9-41
+22        android:largeHeap="true"
+22-->C:\Users\zhiwa\AndroidStudioProjects\EulerityHackathon\app\src\main\AndroidManifest.xml:9:9-33
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->C:\Users\zhiwa\AndroidStudioProjects\EulerityHackathon\app\src\main\AndroidManifest.xml:14:9-54
+24        android:supportsRtl="true"
+24-->C:\Users\zhiwa\AndroidStudioProjects\EulerityHackathon\app\src\main\AndroidManifest.xml:15:9-35
+25        android:theme="@style/AppTheme" >
+25-->C:\Users\zhiwa\AndroidStudioProjects\EulerityHackathon\app\src\main\AndroidManifest.xml:16:9-40
+26        <activity
+26-->C:\Users\zhiwa\AndroidStudioProjects\EulerityHackathon\app\src\main\AndroidManifest.xml:17:9-24:20
+27            android:name="com.example.eulerity_hackathon.MainActivity"
+27-->C:\Users\zhiwa\AndroidStudioProjects\EulerityHackathon\app\src\main\AndroidManifest.xml:17:19-47
+28            android:exported="true" >
+28-->C:\Users\zhiwa\AndroidStudioProjects\EulerityHackathon\app\src\main\AndroidManifest.xml:18:13-36
+29            <intent-filter>
+29-->C:\Users\zhiwa\AndroidStudioProjects\EulerityHackathon\app\src\main\AndroidManifest.xml:19:13-23:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->C:\Users\zhiwa\AndroidStudioProjects\EulerityHackathon\app\src\main\AndroidManifest.xml:20:17-69
+30-->C:\Users\zhiwa\AndroidStudioProjects\EulerityHackathon\app\src\main\AndroidManifest.xml:20:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->C:\Users\zhiwa\AndroidStudioProjects\EulerityHackathon\app\src\main\AndroidManifest.xml:22:17-77
+32-->C:\Users\zhiwa\AndroidStudioProjects\EulerityHackathon\app\src\main\AndroidManifest.xml:22:27-74
+33            </intent-filter>
+34        </activity>
+35        <activity
+35-->C:\Users\zhiwa\AndroidStudioProjects\EulerityHackathon\app\src\main\AndroidManifest.xml:25:9-31:20
+36            android:name="com.example.eulerity_hackathon.image_edition"
+36-->C:\Users\zhiwa\AndroidStudioProjects\EulerityHackathon\app\src\main\AndroidManifest.xml:26:13-42
+37            android:parentActivityName="com.example.eulerity_hackathon.MainActivity" >
+37-->C:\Users\zhiwa\AndroidStudioProjects\EulerityHackathon\app\src\main\AndroidManifest.xml:27:13-55
+38            <meta-data
+38-->C:\Users\zhiwa\AndroidStudioProjects\EulerityHackathon\app\src\main\AndroidManifest.xml:28:13-30:49
+39                android:name="android.support.PARENT_ACTIVITY"
+39-->C:\Users\zhiwa\AndroidStudioProjects\EulerityHackathon\app\src\main\AndroidManifest.xml:29:17-63
+40                android:value=".MainActivity" />
+40-->C:\Users\zhiwa\AndroidStudioProjects\EulerityHackathon\app\src\main\AndroidManifest.xml:30:17-46
+41        </activity>
+42        <activity
+42-->C:\Users\zhiwa\AndroidStudioProjects\EulerityHackathon\app\src\main\AndroidManifest.xml:32:9-39:20
+43            android:name="com.example.eulerity_hackathon.image_text_edition"
+43-->C:\Users\zhiwa\AndroidStudioProjects\EulerityHackathon\app\src\main\AndroidManifest.xml:33:13-47
+44            android:parentActivityName="com.example.eulerity_hackathon.image_edition" >
+44-->C:\Users\zhiwa\AndroidStudioProjects\EulerityHackathon\app\src\main\AndroidManifest.xml:34:13-56
+45            <meta-data
+45-->C:\Users\zhiwa\AndroidStudioProjects\EulerityHackathon\app\src\main\AndroidManifest.xml:28:13-30:49
+46                android:name="android.support.PARENT_ACTIVITY"
+46-->C:\Users\zhiwa\AndroidStudioProjects\EulerityHackathon\app\src\main\AndroidManifest.xml:29:17-63
+47                android:value=".image_edition" />
+47-->C:\Users\zhiwa\AndroidStudioProjects\EulerityHackathon\app\src\main\AndroidManifest.xml:30:17-46
+48        </activity>
+49
+50        <provider
+50-->[com.squareup.picasso:picasso:2.71828] C:\Users\zhiwa\.gradle\caches\transforms-3\0b7e21f171fcedd05adc09789ffab7f2\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+51            android:name="com.squareup.picasso.PicassoProvider"
+51-->[com.squareup.picasso:picasso:2.71828] C:\Users\zhiwa\.gradle\caches\transforms-3\0b7e21f171fcedd05adc09789ffab7f2\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+52            android:authorities="com.example.eulerity_hackathon.com.squareup.picasso"
+52-->[com.squareup.picasso:picasso:2.71828] C:\Users\zhiwa\.gradle\caches\transforms-3\0b7e21f171fcedd05adc09789ffab7f2\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+53            android:exported="false" />
+53-->[com.squareup.picasso:picasso:2.71828] C:\Users\zhiwa\.gradle\caches\transforms-3\0b7e21f171fcedd05adc09789ffab7f2\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+54        <provider
+54-->[androidx.emoji2:emoji2:1.0.0] C:\Users\zhiwa\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+55            android:name="androidx.startup.InitializationProvider"
+55-->[androidx.emoji2:emoji2:1.0.0] C:\Users\zhiwa\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+56            android:authorities="com.example.eulerity_hackathon.androidx-startup"
+56-->[androidx.emoji2:emoji2:1.0.0] C:\Users\zhiwa\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+57            android:exported="false" >
+57-->[androidx.emoji2:emoji2:1.0.0] C:\Users\zhiwa\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+58            <meta-data
+58-->[androidx.emoji2:emoji2:1.0.0] C:\Users\zhiwa\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+59                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+59-->[androidx.emoji2:emoji2:1.0.0] C:\Users\zhiwa\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+60                android:value="androidx.startup" />
+60-->[androidx.emoji2:emoji2:1.0.0] C:\Users\zhiwa\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+61            <meta-data
+61-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\zhiwa\.gradle\caches\transforms-3\0e4a425e61d135d109d64d5f17d999df\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+62                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+62-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\zhiwa\.gradle\caches\transforms-3\0e4a425e61d135d109d64d5f17d999df\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+63                android:value="androidx.startup" />
+63-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\zhiwa\.gradle\caches\transforms-3\0e4a425e61d135d109d64d5f17d999df\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+64        </provider>
+65    </application>
+66
+67</manifest>

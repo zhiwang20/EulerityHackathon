@@ -1,0 +1,18 @@
+com/example/eulerity_hackathon/image_text_edition.java
+ com.example.eulerity_hackathon.image_text_edition
+ com.example.eulerity_hackathon.image_text_edition$1
+ com.example.eulerity_hackathon.image_text_edition$LoadUrl
+ com.example.eulerity_hackathon.image_text_edition$LoadUrl$1
+com/example/eulerity_hackathon/BuildConfig.java
+ com.example.eulerity_hackathon.BuildConfig
+com/example/eulerity_hackathon/image_edition.java
+ com.example.eulerity_hackathon.image_edition
+com/example/eulerity_hackathon/MainActivity.java
+ com.example.eulerity_hackathon.MainActivity
+ com.example.eulerity_hackathon.MainActivity$1
+ com.example.eulerity_hackathon.MainActivity$LoadImageAsyncTask
+ com.example.eulerity_hackathon.MainActivity$LoadImageAsyncTask$1
+com/example/eulerity_hackathon/Adapter/imagesAdapter.java
+ com.example.eulerity_hackathon.Adapter.imagesAdapter
+com/example/eulerity_hackathon/Models/Image.java
+ com.example.eulerity_hackathon.Models.Image
